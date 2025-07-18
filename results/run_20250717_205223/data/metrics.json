@@ -1,0 +1,37 @@
+[
+  {
+    "episode_id": "uninstall_slack",
+    "goal": "Uninstall the Slack app",
+    "total_steps": 3,
+    "correct_steps": 0,
+    "step_accuracy": 0.0,
+    "steps": [
+      "AgentStep(observation={'app': 'Settings', 'ui_elements': ['Apps', 'Search', 'Battery']}, predicted_action='TYPE(\"search_box\", \"enhanced\")', ground_truth_action='CLICK(\"Apps\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Apps', 'ui_elements': ['Slack', 'Chrome', 'Maps']}, predicted_action='TYPE(\"search_box\", \"enhanced\")', ground_truth_action='CLICK(\"Slack\")', is_correct=False)",
+      "AgentStep(observation={'app': 'App Info', 'ui_elements': ['Uninstall', 'Force Stop', 'Storage']}, predicted_action='TYPE(\"search_box\", \"enhanced\")', ground_truth_action='CLICK(\"Uninstall\")', is_correct=False)"
+    ]
+  },
+  {
+    "episode_id": "take_photo",
+    "goal": "Open the camera and take a photo",
+    "total_steps": 2,
+    "correct_steps": 0,
+    "step_accuracy": 0.0,
+    "steps": [
+      "AgentStep(observation={'app': 'Home', 'ui_elements': ['Camera', 'Messages', 'Settings']}, predicted_action='TYPE(\"search_box\", \"enhanced\")', ground_truth_action='CLICK(\"Camera\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Camera', 'ui_elements': ['Capture', 'Gallery', 'Settings']}, predicted_action='TYPE(\"search_box\", \"enhanced\")', ground_truth_action='CLICK(\"Capture\")', is_correct=False)"
+    ]
+  },
+  {
+    "episode_id": "send_message",
+    "goal": "Send a message to John",
+    "total_steps": 3,
+    "correct_steps": 0,
+    "step_accuracy": 0.0,
+    "steps": [
+      "AgentStep(observation={'app': 'Messages', 'ui_elements': ['New Message', 'Search', 'John']}, predicted_action='TYPE(\"search_box\", \"enhanced\")', ground_truth_action='CLICK(\"John\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Chat', 'ui_elements': ['Text Input', 'Send', 'Attach']}, predicted_action='TYPE(\"search_box\", \"enhanced\")', ground_truth_action='TYPE(\"Text Input\", \"Hello John!\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Chat', 'ui_elements': ['Text Input', 'Send', 'Attach']}, predicted_action='TYPE(\"search_box\", \"enhanced\")', ground_truth_action='CLICK(\"Send\")', is_correct=False)"
+    ]
+  }
+]

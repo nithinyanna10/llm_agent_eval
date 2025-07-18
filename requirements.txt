@@ -1,0 +1,22 @@
+# Core dependencies
+ollama>=0.1.0
+
+# Optional: OpenAI and Anthropic for cloud providers
+# openai>=1.0.0
+# anthropic>=0.7.0
+
+# Evaluation and analysis
+pandas>=1.5.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Data handling
+numpy>=1.21.0
+
+# Optional: For better visualization
+plotly>=5.0.0
+jupyter>=1.0.0
+
+# PDF report generation
+reportlab>=4.0.0
+Pillow>=10.0.0 

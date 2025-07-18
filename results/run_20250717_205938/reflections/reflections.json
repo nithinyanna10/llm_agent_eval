@@ -1,0 +1,50 @@
+[
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Apps\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T20:59:42.354234"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"text\", \"Slack\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T20:59:46.873277"
+  },
+  {
+    "step_index": 2,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T20:59:52.123407"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T20:59:56.603395"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:00:01.856178"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:00:06.361132"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"Text Input\", \"Hello John!\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T21:00:11.207175"
+  },
+  {
+    "step_index": 2,
+    "reflection": "CLICK(\"Send\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T21:00:15.697475"
+  }
+]

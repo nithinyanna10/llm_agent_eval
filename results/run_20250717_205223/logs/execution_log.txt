@@ -1,0 +1,8 @@
+Android World Agent Evaluation Log
+Generated: 2025-07-17 20:52:29
+Model: gemma3:12b-it-qat
+Prompt Template: enhanced
+Reflection Enabled: True
+Total Episodes: 3
+Report: results/run_20250717_205223/reports/evaluation_report.md
+Data: results/run_20250717_205223/data/metrics.json

@@ -1,0 +1,176 @@
+[
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Apps\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:12:50.083574"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"text\", \"Slack\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T21:12:54.194874"
+  },
+  {
+    "step_index": 2,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:12:59.036660"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:13:03.166963"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:13:08.017230"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:13:12.149846"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"Text Input\", \"Hello John!\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T21:13:16.621062"
+  },
+  {
+    "step_index": 2,
+    "reflection": "CLICK(\"Send\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T21:13:20.765389"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:13:25.619861"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:13:30.602736"
+  },
+  {
+    "step_index": 2,
+    "reflection": "CLICK(\"Scan\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T21:13:34.744266"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:13:39.602738"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:13:44.451148"
+  },
+  {
+    "step_index": 2,
+    "reflection": "TYPE(\"Hour\", \"7\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:13:48.480906"
+  },
+  {
+    "step_index": 3,
+    "reflection": "TYPE(\"Time Picker\", \"07:00\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T21:13:52.841138"
+  },
+  {
+    "step_index": 0,
+    "reflection": "TYPE(\"Unknown\", \"Battery\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T21:13:57.003125"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"Unknown\", \"Battery Usage\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T21:14:01.347209"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:14:06.254133"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"Unknown\", \"text\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T21:14:10.573532"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:14:15.494485"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Search Bar\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:14:19.625925"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Contacts\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:14:24.541879"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"First name\", \"Alice\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:14:28.655972"
+  },
+  {
+    "step_index": 2,
+    "reflection": "TYPE(\"Phone Field\", \"555-123-4567\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:14:33.335401"
+  },
+  {
+    "step_index": 0,
+    "reflection": "TYPE(\"Unknown\", \"Mute\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T21:14:37.546560"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:14:42.441152"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T21:14:47.360986"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"Search\", \"airport\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T21:14:51.651449"
+  },
+  {
+    "step_index": 2,
+    "reflection": "TYPE(\"Search\", \"Airport\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T21:14:55.936986"
+  }
+]

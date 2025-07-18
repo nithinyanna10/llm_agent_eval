@@ -1,0 +1,15 @@
+{
+  "goal": "Uninstall the Slack app",
+  "observations": [
+    {"app": "Settings", "ui_elements": ["Apps", "Search", "Battery"]},
+    {"app": "Apps", "ui_elements": ["Slack", "Gmail", "Maps"]},
+    {"app": "Slack", "ui_elements": ["Uninstall", "Force Stop", "Open"]}
+  ],
+  "ground_truth_actions": [
+    "CLICK(\"Apps\")",
+    "CLICK(\"Slack\")",
+    "CLICK(\"Uninstall\")"
+  ],
+  "task_name": "UninstallSlack",
+  "params": {}
+} 

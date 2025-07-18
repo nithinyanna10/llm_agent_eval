@@ -1,0 +1,512 @@
+[
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Apps\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:06:14.859336"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"text\", \"Slack\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:06:18.978719"
+  },
+  {
+    "step_index": 2,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:06:23.835630"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:06:27.972698"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:06:32.858065"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:06:37.028872"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"Text Input\", \"Hello John!\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:06:41.502654"
+  },
+  {
+    "step_index": 2,
+    "reflection": "CLICK(\"Send\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:06:45.642555"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:06:50.499212"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:06:55.480212"
+  },
+  {
+    "step_index": 2,
+    "reflection": "CLICK(\"Scan\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:06:59.623698"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:07:04.482865"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:07:09.334751"
+  },
+  {
+    "step_index": 2,
+    "reflection": "TYPE(\"Hour\", \"7\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:07:13.357866"
+  },
+  {
+    "step_index": 3,
+    "reflection": "TYPE(\"Time Picker\", \"07:00\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:07:17.706865"
+  },
+  {
+    "step_index": 0,
+    "reflection": "TYPE(\"Unknown\", \"Battery\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:07:21.835895"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"Unknown\", \"Battery Usage\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:07:26.149076"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:07:31.049928"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"Unknown\", \"text\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:07:35.362428"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:07:40.299147"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Search Bar\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:07:44.435180"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Contacts\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:07:49.353191"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"First name\", \"Alice\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:07:53.474224"
+  },
+  {
+    "step_index": 2,
+    "reflection": "TYPE(\"Phone Field\", \"555-123-4567\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:07:58.164182"
+  },
+  {
+    "step_index": 0,
+    "reflection": "TYPE(\"Unknown\", \"Mute\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:08:02.401427"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:08:07.305280"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:08:12.202756"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"Search\", \"airport\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:08:16.495970"
+  },
+  {
+    "step_index": 2,
+    "reflection": "TYPE(\"Search\", \"Airport\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:08:20.821112"
+  },
+  {
+    "step_index": 0,
+    "reflection": "TYPE(\"Unknown\", \"Settings\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:08:25.104184"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"Unknown\", \"Wallpaper\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:08:29.144646"
+  },
+  {
+    "step_index": 2,
+    "reflection": "TYPE(\"Choose Image\", \"path/to/image.jpg\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:08:33.468057"
+  },
+  {
+    "step_index": 3,
+    "reflection": "TYPE(\"Search\", \"wallpaper\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:08:37.505953"
+  },
+  {
+    "step_index": 4,
+    "reflection": "CLICK(\"Downloaded\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:08:41.802196"
+  },
+  {
+    "step_index": 5,
+    "reflection": "TYPE(\"beach.jpg\", \"beach.jpg\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:08:46.359569"
+  },
+  {
+    "step_index": 0,
+    "reflection": "TYPE(\"text_field\", \"recipient_email\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:08:50.550958"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"to\", \"friend@example.com\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:08:55.116733"
+  },
+  {
+    "step_index": 2,
+    "reflection": "TYPE(\"to\", \"recipient@example.com\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:08:59.332803"
+  },
+  {
+    "step_index": 3,
+    "reflection": "TYPE(\"Unknown\", \"text\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:09:03.602623"
+  },
+  {
+    "step_index": 4,
+    "reflection": "TYPE(\"To Field\", \"friend@example.com\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:09:08.161425"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:09:12.899200"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:09:17.767557"
+  },
+  {
+    "step_index": 0,
+    "reflection": "TYPE(\"Back\", \"Back\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:09:21.796560"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"Unknown\", \"Software Update\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:09:26.104032"
+  },
+  {
+    "step_index": 2,
+    "reflection": "TYPE(\"text_field\", \"Update Now\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:09:30.495456"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:09:35.375248"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"text field\", \"JBL Flip\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:09:39.664335"
+  },
+  {
+    "step_index": 2,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:09:44.662272"
+  },
+  {
+    "step_index": 3,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:09:49.521870"
+  },
+  {
+    "step_index": 0,
+    "reflection": "TYPE(\"text_field\", \"1234567890\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:09:54.246873"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"1234567890\", \"1234567890\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:09:59.343340"
+  },
+  {
+    "step_index": 2,
+    "reflection": "CLICK(\"Block\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:10:04.191694"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Network & Internet\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:10:08.410198"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:10:13.322275"
+  },
+  {
+    "step_index": 0,
+    "reflection": "TYPE(\"text_input\", \"Delete all alarms\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:10:17.643141"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"Unknown\", \"text\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:10:21.953502"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:10:26.859892"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:10:31.750763"
+  },
+  {
+    "step_index": 2,
+    "reflection": "TYPE(\"Text Input\", \"Thanks Bob!\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:10:35.847413"
+  },
+  {
+    "step_index": 0,
+    "reflection": "TYPE(\"Add language\", \"Espa\u00f1ol\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:10:40.029381"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:10:44.906938"
+  },
+  {
+    "step_index": 2,
+    "reflection": "CLICK(\"Spanish\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:10:49.785120"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Camera\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:10:53.442092"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"Share\", \"Broccoli Recipe App\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:10:57.984057"
+  },
+  {
+    "step_index": 2,
+    "reflection": "CLICK(\"Email\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:11:02.053896"
+  },
+  {
+    "step_index": 3,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:11:07.079674"
+  },
+  {
+    "step_index": 0,
+    "reflection": "TYPE(\"recipes.txt\", \"recipes\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:11:11.606992"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"text\", \"recipes.txt\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:11:16.114983"
+  },
+  {
+    "step_index": 2,
+    "reflection": "TYPE(\"text_field\", \"recipes.txt\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:11:20.706906"
+  },
+  {
+    "step_index": 3,
+    "reflection": "TYPE(\"file_path\", \"recipes.txt\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:11:25.061401"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:11:30.112031"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:11:35.158759"
+  },
+  {
+    "step_index": 2,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:11:40.204424"
+  },
+  {
+    "step_index": 3,
+    "reflection": "TYPE(\"text_input\", \"recipes.txt\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:11:44.835948"
+  },
+  {
+    "step_index": 4,
+    "reflection": "CLICK(\"Import\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:11:49.186081"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:11:54.243623"
+  },
+  {
+    "step_index": 1,
+    "reflection": "TYPE(\"Recipe Name\", \"{recipe}\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:11:58.503657"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:12:03.574141"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:12:08.679475"
+  },
+  {
+    "step_index": 2,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:12:13.783109"
+  },
+  {
+    "step_index": 3,
+    "reflection": "TYPE(\"Search\", \"broccoli recipes\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:12:18.333923"
+  },
+  {
+    "step_index": 0,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:12:23.463434"
+  },
+  {
+    "step_index": 1,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:12:28.567062"
+  },
+  {
+    "step_index": 2,
+    "reflection": "CLICK(\"Unknown\")",
+    "was_correct": true,
+    "timestamp": "2025-07-17T22:12:33.842484"
+  },
+  {
+    "step_index": 3,
+    "reflection": "TYPE(\"Search\", \"broccoli recipes\")",
+    "was_correct": false,
+    "timestamp": "2025-07-17T22:12:38.215200"
+  }
+]

@@ -1,0 +1,253 @@
+[
+  {
+    "episode_id": "uninstall_slack",
+    "goal": "Uninstall the Slack app",
+    "total_steps": 3,
+    "correct_steps": 2,
+    "step_accuracy": 0.6666666666666666,
+    "steps": [
+      "AgentStep(observation={'app': 'Settings', 'ui_elements': ['Apps', 'Search', 'Battery']}, predicted_action='CLICK(\"Apps\")', ground_truth_action='CLICK(\"Apps\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Apps', 'ui_elements': ['Slack', 'Chrome', 'Maps']}, predicted_action='CLICK(\"Unknown\")', ground_truth_action='CLICK(\"Slack\")', is_correct=False)",
+      "AgentStep(observation={'app': 'App Info', 'ui_elements': ['Uninstall', 'Force Stop', 'Storage']}, predicted_action='CLICK(\"Uninstall\")', ground_truth_action='CLICK(\"Uninstall\")', is_correct=True)"
+    ]
+  },
+  {
+    "episode_id": "take_photo",
+    "goal": "Open the camera and take a photo",
+    "total_steps": 2,
+    "correct_steps": 2,
+    "step_accuracy": 1.0,
+    "steps": [
+      "AgentStep(observation={'app': 'Home', 'ui_elements': ['Camera', 'Messages', 'Settings']}, predicted_action='CLICK(\"Camera\")', ground_truth_action='CLICK(\"Camera\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Camera', 'ui_elements': ['Capture', 'Gallery', 'Settings']}, predicted_action='CLICK(\"Capture\")', ground_truth_action='CLICK(\"Capture\")', is_correct=True)"
+    ]
+  },
+  {
+    "episode_id": "send_message",
+    "goal": "Send a message to John",
+    "total_steps": 3,
+    "correct_steps": 1,
+    "step_accuracy": 0.3333333333333333,
+    "steps": [
+      "AgentStep(observation={'app': 'Messages', 'ui_elements': ['New Message', 'Search', 'John']}, predicted_action='CLICK(\"John\")', ground_truth_action='CLICK(\"John\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Chat', 'ui_elements': ['Text Input', 'Send', 'Attach']}, predicted_action='TYPE(\"Text Input\", \"Hello John\")', ground_truth_action='TYPE(\"Text Input\", \"Hello John!\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Chat', 'ui_elements': ['Text Input', 'Send', 'Attach']}, predicted_action='TYPE(\"Text Input\", \"Hello John\")', ground_truth_action='CLICK(\"Send\")', is_correct=False)"
+    ]
+  },
+  {
+    "episode_id": "search_wifi",
+    "goal": "Search for Wi-Fi networks",
+    "total_steps": 3,
+    "correct_steps": 2,
+    "step_accuracy": 0.6666666666666666,
+    "steps": [
+      "AgentStep(observation={'app': 'Settings', 'ui_elements': ['Network & Internet', 'Bluetooth', 'Display']}, predicted_action='CLICK(\"Network & Internet\")', ground_truth_action='CLICK(\"Network & Internet\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Network & Internet', 'ui_elements': ['Wi-Fi', 'Mobile', 'Data Usage']}, predicted_action='CLICK(\"Wi-Fi\")', ground_truth_action='CLICK(\"Wi-Fi\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Wi-Fi', 'ui_elements': ['Available Networks', 'Add Network', 'Scan']}, predicted_action='CLICK(\"Available Networks\")', ground_truth_action='CLICK(\"Scan\")', is_correct=False)"
+    ]
+  },
+  {
+    "episode_id": "set_alarm",
+    "goal": "Set an alarm for 7 AM",
+    "total_steps": 4,
+    "correct_steps": 3,
+    "step_accuracy": 0.75,
+    "steps": [
+      "AgentStep(observation={'app': 'Home', 'ui_elements': ['Clock', 'Calendar', 'Weather']}, predicted_action='CLICK(\"Clock\")', ground_truth_action='CLICK(\"Clock\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Clock', 'ui_elements': ['Alarm', 'Timer', 'Stopwatch']}, predicted_action='CLICK(\"Alarm\")', ground_truth_action='CLICK(\"Alarm\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Alarm', 'ui_elements': ['Add Alarm', 'Edit', 'Delete']}, predicted_action='CLICK(\"Add Alarm\")', ground_truth_action='CLICK(\"Add Alarm\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Add Alarm', 'ui_elements': ['Time Picker', 'Save', 'Cancel']}, predicted_action='CLICK(\"Time Picker\")', ground_truth_action='TYPE(\"Time Picker\", \"07:00\")', is_correct=False)"
+    ]
+  },
+  {
+    "episode_id": "check_battery",
+    "goal": "Check battery usage",
+    "total_steps": 2,
+    "correct_steps": 0,
+    "step_accuracy": 0.0,
+    "steps": [
+      "AgentStep(observation={'app': 'Settings', 'ui_elements': ['Battery', 'Display', 'Sound']}, predicted_action='CLICK(\"Unknown\")', ground_truth_action='CLICK(\"Battery\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Battery', 'ui_elements': ['Battery Usage', 'Battery Saver', 'Adaptive Battery']}, predicted_action='CLICK(\"Unknown\")', ground_truth_action='CLICK(\"Battery Usage\")', is_correct=False)"
+    ]
+  },
+  {
+    "episode_id": "turn_on_bluetooth",
+    "goal": "Turn on Bluetooth",
+    "total_steps": 2,
+    "correct_steps": 1,
+    "step_accuracy": 0.5,
+    "steps": [
+      "AgentStep(observation={'app': 'Settings', 'ui_elements': ['Network & Internet', 'Bluetooth', 'Display']}, predicted_action='CLICK(\"Bluetooth\")', ground_truth_action='CLICK(\"Bluetooth\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Bluetooth', 'ui_elements': ['On/Off Switch', 'Pair New Device', 'Saved Devices']}, predicted_action='CLICK(\"Unknown\")', ground_truth_action='CLICK(\"On/Off Switch\")', is_correct=False)"
+    ]
+  },
+  {
+    "episode_id": "search_weather_chrome",
+    "goal": "Open Chrome and search for 'weather'",
+    "total_steps": 2,
+    "correct_steps": 2,
+    "step_accuracy": 1.0,
+    "steps": [
+      "AgentStep(observation={'app': 'Home', 'ui_elements': ['Chrome', 'Maps', 'Camera']}, predicted_action='CLICK(\"Chrome\")', ground_truth_action='CLICK(\"Chrome\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Chrome', 'ui_elements': ['Search Bar', 'Tabs', 'Menu']}, predicted_action='TYPE(\"Search Bar\", \"weather\")', ground_truth_action='TYPE(\"Search Bar\", \"weather\")', is_correct=True)"
+    ]
+  },
+  {
+    "episode_id": "add_contact_alice",
+    "goal": "Add a new contact named Alice",
+    "total_steps": 3,
+    "correct_steps": 3,
+    "step_accuracy": 1.0,
+    "steps": [
+      "AgentStep(observation={'app': 'Home', 'ui_elements': ['Contacts', 'Phone', 'Messages']}, predicted_action='CLICK(\"Contacts\")', ground_truth_action='CLICK(\"Contacts\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Contacts', 'ui_elements': ['Add Contact', 'Search', 'Favorites']}, predicted_action='CLICK(\"Add Contact\")', ground_truth_action='CLICK(\"Add Contact\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Add Contact', 'ui_elements': ['Name Field', 'Phone Field', 'Save']}, predicted_action='TYPE(\"Name Field\", \"Alice\")', ground_truth_action='TYPE(\"Name Field\", \"Alice\")', is_correct=True)"
+    ]
+  },
+  {
+    "episode_id": "mute_phone",
+    "goal": "Mute the phone",
+    "total_steps": 2,
+    "correct_steps": 1,
+    "step_accuracy": 0.5,
+    "steps": [
+      "AgentStep(observation={'app': 'Settings', 'ui_elements': ['Sound', 'Display', 'Notifications']}, predicted_action='CLICK(\"Unknown\")', ground_truth_action='CLICK(\"Sound\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Sound', 'ui_elements': ['Volume', 'Vibrate', 'Mute']}, predicted_action='CLICK(\"Mute\")', ground_truth_action='CLICK(\"Mute\")', is_correct=True)"
+    ]
+  },
+  {
+    "episode_id": "directions_airport",
+    "goal": "Open Maps and get directions to the airport",
+    "total_steps": 3,
+    "correct_steps": 1,
+    "step_accuracy": 0.3333333333333333,
+    "steps": [
+      "AgentStep(observation={'app': 'Home', 'ui_elements': ['Maps', 'Chrome', 'Camera']}, predicted_action='CLICK(\"Maps\")', ground_truth_action='CLICK(\"Maps\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Maps', 'ui_elements': ['Search', 'Directions', 'Menu']}, predicted_action='CLICK(\"Search\")', ground_truth_action='CLICK(\"Directions\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Maps', 'ui_elements': ['Airport', 'Home', 'Work']}, predicted_action='CLICK(\"Airport\")', ground_truth_action='TYPE(\"Search\", \"Airport\")', is_correct=False)"
+    ]
+  },
+  {
+    "episode_id": "change_wallpaper",
+    "goal": "Change wallpaper to a downloaded image",
+    "total_steps": 6,
+    "correct_steps": 1,
+    "step_accuracy": 0.16666666666666666,
+    "steps": [
+      "AgentStep(observation={'app': 'Home', 'ui_elements': ['Settings', 'Gallery', 'Files']}, predicted_action='CLICK(\"Unknown\")', ground_truth_action='CLICK(\"Settings\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Settings', 'ui_elements': ['Display', 'Wallpaper', 'Themes']}, predicted_action='CLICK(\"Unknown\")', ground_truth_action='CLICK(\"Wallpaper\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Wallpaper', 'ui_elements': ['Choose Image', 'Default', 'Gallery']}, predicted_action='CLICK(\"Choose Image\")', ground_truth_action='CLICK(\"Choose Image\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Gallery', 'ui_elements': ['Downloaded', 'Camera', 'Screenshots']}, predicted_action='CLICK(\"Downloaded\")', ground_truth_action='CLICK(\"Gallery\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Downloaded', 'ui_elements': ['beach.jpg', 'mountain.jpg', 'city.jpg']}, predicted_action='CLICK(\"beach.jpg\")', ground_truth_action='CLICK(\"Downloaded\")', is_correct=False)",
+      "AgentStep(observation={'app': 'beach.jpg', 'ui_elements': ['Set as Wallpaper', 'Share', 'Delete']}, predicted_action='CLICK(\"Set as Wallpaper\")', ground_truth_action='CLICK(\"beach.jpg\")', is_correct=False)"
+    ]
+  },
+  {
+    "episode_id": "share_photo_email",
+    "goal": "Share a photo via email",
+    "total_steps": 5,
+    "correct_steps": 1,
+    "step_accuracy": 0.2,
+    "steps": [
+      "AgentStep(observation={'app': 'Gallery', 'ui_elements': ['Camera', 'Downloads', 'Vacation']}, predicted_action='CLICK(\"Unknown\")', ground_truth_action='CLICK(\"Vacation\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Vacation', 'ui_elements': ['photo1.jpg', 'photo2.jpg', 'photo3.jpg']}, predicted_action='CLICK(\"Unknown\")', ground_truth_action='CLICK(\"photo2.jpg\")', is_correct=False)",
+      "AgentStep(observation={'app': 'photo2.jpg', 'ui_elements': ['Share', 'Delete', 'Edit']}, predicted_action='CLICK(\"Share\")', ground_truth_action='CLICK(\"Share\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Share', 'ui_elements': ['Email', 'Messages', 'Drive']}, predicted_action='CLICK(\"Unknown\")', ground_truth_action='CLICK(\"Email\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Email', 'ui_elements': ['To Field', 'Subject Field', 'Send']}, predicted_action='CLICK(\"Unknown\")', ground_truth_action='TYPE(\"To Field\", \"friend@example.com\")', is_correct=False)"
+    ]
+  },
+  {
+    "episode_id": "enable_dark_mode",
+    "goal": "Enable dark mode",
+    "total_steps": 2,
+    "correct_steps": 1,
+    "step_accuracy": 0.5,
+    "steps": [
+      "AgentStep(observation={'app': 'Settings', 'ui_elements': ['Display', 'Sound', 'Notifications']}, predicted_action='CLICK(\"Unknown\")', ground_truth_action='CLICK(\"Display\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Display', 'ui_elements': ['Brightness', 'Dark Mode', 'Font Size']}, predicted_action='CLICK(\"Dark Mode\")', ground_truth_action='CLICK(\"Dark Mode\")', is_correct=True)"
+    ]
+  },
+  {
+    "episode_id": "update_software",
+    "goal": "Update the system software",
+    "total_steps": 3,
+    "correct_steps": 1,
+    "step_accuracy": 0.3333333333333333,
+    "steps": [
+      "AgentStep(observation={'app': 'Settings', 'ui_elements': ['System', 'About Phone', 'Software Update']}, predicted_action='CLICK(\"Software Update\")', ground_truth_action='CLICK(\"System\")', is_correct=False)",
+      "AgentStep(observation={'app': 'System', 'ui_elements': ['Software Update', 'Reset', 'Backup']}, predicted_action='CLICK(\"Unknown\")', ground_truth_action='CLICK(\"Software Update\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Software Update', 'ui_elements': ['Check for Updates', 'Install Now', 'Schedule']}, predicted_action='CLICK(\"Check for Updates\")', ground_truth_action='CLICK(\"Check for Updates\")', is_correct=True)"
+    ]
+  },
+  {
+    "episode_id": "connect_bluetooth_speaker",
+    "goal": "Connect to a Bluetooth speaker named 'JBL Flip'",
+    "total_steps": 4,
+    "correct_steps": 4,
+    "step_accuracy": 1.0,
+    "steps": [
+      "AgentStep(observation={'app': 'Settings', 'ui_elements': ['Bluetooth', 'Wi-Fi', 'Display']}, predicted_action='CLICK(\"Bluetooth\")', ground_truth_action='CLICK(\"Bluetooth\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Bluetooth', 'ui_elements': ['On/Off Switch', 'Pair New Device', 'Saved Devices']}, predicted_action='CLICK(\"Pair New Device\")', ground_truth_action='CLICK(\"Pair New Device\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Pair New Device', 'ui_elements': ['JBL Flip', 'Sony WH', 'Bose QC']}, predicted_action='CLICK(\"JBL Flip\")', ground_truth_action='CLICK(\"JBL Flip\")', is_correct=True)",
+      "AgentStep(observation={'app': 'JBL Flip', 'ui_elements': ['Connect', 'Forget', 'Rename']}, predicted_action='CLICK(\"Connect\")', ground_truth_action='CLICK(\"Connect\")', is_correct=True)"
+    ]
+  },
+  {
+    "episode_id": "block_spam_number",
+    "goal": "Block a spam number",
+    "total_steps": 3,
+    "correct_steps": 1,
+    "step_accuracy": 0.3333333333333333,
+    "steps": [
+      "AgentStep(observation={'app': 'Phone', 'ui_elements': ['Recents', 'Contacts', 'Spam']}, predicted_action='CLICK(\"Unknown\")', ground_truth_action='CLICK(\"Spam\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Spam', 'ui_elements': ['1234567890', '9876543210', 'Block']}, predicted_action='CLICK(\"Block\")', ground_truth_action='CLICK(\"1234567890\")', is_correct=False)",
+      "AgentStep(observation={'app': '1234567890', 'ui_elements': ['Block', 'Call', 'Message']}, predicted_action='CLICK(\"Block\")', ground_truth_action='CLICK(\"Block\")', is_correct=True)"
+    ]
+  },
+  {
+    "episode_id": "turn_on_airplane_mode",
+    "goal": "Turn on airplane mode",
+    "total_steps": 2,
+    "correct_steps": 1,
+    "step_accuracy": 0.5,
+    "steps": [
+      "AgentStep(observation={'app': 'Settings', 'ui_elements': ['Network & Internet', 'Connections', 'Airplane Mode']}, predicted_action='CLICK(\"Airplane Mode\")', ground_truth_action='CLICK(\"Network & Internet\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Network & Internet', 'ui_elements': ['Wi-Fi', 'Mobile', 'Airplane Mode']}, predicted_action='CLICK(\"Airplane Mode\")', ground_truth_action='CLICK(\"Airplane Mode\")', is_correct=True)"
+    ]
+  },
+  {
+    "episode_id": "delete_all_alarms",
+    "goal": "Delete all alarms",
+    "total_steps": 2,
+    "correct_steps": 0,
+    "step_accuracy": 0.0,
+    "steps": [
+      "AgentStep(observation={'app': 'Clock', 'ui_elements': ['Alarm', 'Timer', 'Stopwatch']}, predicted_action='CLICK(\"Unknown\")', ground_truth_action='CLICK(\"Alarm\")', is_correct=False)",
+      "AgentStep(observation={'app': 'Alarm', 'ui_elements': ['Edit', 'Delete All', 'Add Alarm']}, predicted_action='CLICK(\"Unknown\")', ground_truth_action='CLICK(\"Delete All\")', is_correct=False)"
+    ]
+  },
+  {
+    "episode_id": "reply_email_bob",
+    "goal": "Reply to an email from Bob",
+    "total_steps": 3,
+    "correct_steps": 2,
+    "step_accuracy": 0.6666666666666666,
+    "steps": [
+      "AgentStep(observation={'app': 'Email', 'ui_elements': ['Inbox', 'Sent', 'Bob']}, predicted_action='CLICK(\"Bob\")', ground_truth_action='CLICK(\"Bob\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Bob', 'ui_elements': ['Reply', 'Forward', 'Delete']}, predicted_action='CLICK(\"Reply\")', ground_truth_action='CLICK(\"Reply\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Reply', 'ui_elements': ['Text Input', 'Send', 'Attach']}, predicted_action='TYPE(\"Text Input\", \"Reply to Bob\\'s email\")', ground_truth_action='TYPE(\"Text Input\", \"Thanks Bob!\")', is_correct=False)"
+    ]
+  },
+  {
+    "episode_id": "change_language_spanish",
+    "goal": "Change language to Spanish",
+    "total_steps": 3,
+    "correct_steps": 3,
+    "step_accuracy": 1.0,
+    "steps": [
+      "AgentStep(observation={'app': 'Settings', 'ui_elements': ['System', 'Languages & Input', 'About Phone']}, predicted_action='CLICK(\"Languages & Input\")', ground_truth_action='CLICK(\"Languages & Input\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Languages & Input', 'ui_elements': ['Languages', 'Keyboard', 'Spell Checker']}, predicted_action='CLICK(\"Languages\")', ground_truth_action='CLICK(\"Languages\")', is_correct=True)",
+      "AgentStep(observation={'app': 'Languages', 'ui_elements': ['Add Language', 'Spanish', 'French']}, predicted_action='CLICK(\"Spanish\")', ground_truth_action='CLICK(\"Spanish\")', is_correct=True)"
+    ]
+  }
+]

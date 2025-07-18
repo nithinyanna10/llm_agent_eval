@@ -1,0 +1,611 @@
+{
+  "total_episodes": 27,
+  "total_steps": 85,
+  "correct_steps": 51,
+  "step_accuracy": 0.6,
+  "successful_episodes": 7,
+  "episode_success_rate": 0.25925925925925924,
+  "average_steps_per_episode": 3.1481481481481484,
+  "task_accuracy": {
+    "uninstall_slack": 0.6666666666666666,
+    "take_photo": 1.0,
+    "send_message": 0.3333333333333333,
+    "search_wifi": 0.6666666666666666,
+    "set_alarm": 0.75,
+    "check_battery": 0.0,
+    "turn_on_bluetooth": 0.5,
+    "search_weather_chrome": 1.0,
+    "add_contact_alice": 1.0,
+    "mute_phone": 0.5,
+    "directions_airport": 0.3333333333333333,
+    "change_wallpaper": 0.16666666666666666,
+    "share_photo_email": 0.2,
+    "enable_dark_mode": 0.5,
+    "update_software": 0.3333333333333333,
+    "connect_bluetooth_speaker": 1.0,
+    "block_spam_number": 0.3333333333333333,
+    "turn_on_airplane_mode": 0.5,
+    "delete_all_alarms": 0.0,
+    "reply_email_bob": 0.6666666666666666,
+    "change_language_spanish": 1.0,
+    "RecipeAddMultipleRecipesFromImage": 1.0,
+    "RecipeAddMultipleRecipesFromMarkor": 1.0,
+    "RecipeAddMultipleRecipesFromMarkor2": 0.6,
+    "RecipeAddSingleRecipe": 0.5,
+    "RecipeDeleteDuplicateRecipes": 0.75,
+    "RecipeDeleteDuplicateRecipes2": 0.75
+  },
+  "app_accuracy": {
+    "Settings": 0.45454545454545453,
+    "Apps": 0.0,
+    "App Info": 1.0,
+    "Home": 0.8333333333333334,
+    "Camera": 1.0,
+    "Messages": 1.0,
+    "Chat": 0.0,
+    "Network & Internet": 1.0,
+    "Wi-Fi": 0.0,
+    "Clock": 0.5,
+    "Alarm": 0.5,
+    "Add Alarm": 0.0,
+    "Battery": 0.0,
+    "Bluetooth": 0.5,
+    "Chrome": 1.0,
+    "Contacts": 1.0,
+    "Add Contact": 1.0,
+    "Sound": 1.0,
+    "Maps": 0.0,
+    "Wallpaper": 1.0,
+    "Gallery": 0.0,
+    "Downloaded": 0.0,
+    "beach.jpg": 0.0,
+    "Vacation": 0.0,
+    "photo2.jpg": 1.0,
+    "Share": 0.5,
+    "Email": 0.5,
+    "Display": 1.0,
+    "System": 0.0,
+    "Software Update": 1.0,
+    "Pair New Device": 1.0,
+    "JBL Flip": 1.0,
+    "Phone": 0.0,
+    "Spam": 0.0,
+    "1234567890": 1.0,
+    "Bob": 1.0,
+    "Reply": 0.0,
+    "Languages & Input": 1.0,
+    "Languages": 1.0,
+    "Simple Gallery Pro": 1.0,
+    "recipes.jpg": 1.0,
+    "Broccoli": 0.8333333333333334,
+    "Markor": 1.0,
+    "recipes.txt": 1.0,
+    "Filter": 1.0,
+    "Add Recipe": 0.0,
+    "Recipes": 1.0,
+    "Duplicate1": 1.0,
+    "Duplicate2": 0.0
+  },
+  "common_errors": [
+    {
+      "episode_id": "uninstall_slack",
+      "goal": "Uninstall the Slack app",
+      "observation": {
+        "app": "Apps",
+        "ui_elements": [
+          "Slack",
+          "Chrome",
+          "Maps"
+        ]
+      },
+      "predicted": "CLICK(\"Unknown\")",
+      "ground_truth": "CLICK(\"Slack\")",
+      "app": "Apps"
+    },
+    {
+      "episode_id": "send_message",
+      "goal": "Send a message to John",
+      "observation": {
+        "app": "Chat",
+        "ui_elements": [
+          "Text Input",
+          "Send",
+          "Attach"
+        ]
+      },
+      "predicted": "TYPE(\"Text Input\", \"Hello John\")",
+      "ground_truth": "TYPE(\"Text Input\", \"Hello John!\")",
+      "app": "Chat"
+    },
+    {
+      "episode_id": "send_message",
+      "goal": "Send a message to John",
+      "observation": {
+        "app": "Chat",
+        "ui_elements": [
+          "Text Input",
+          "Send",
+          "Attach"
+        ]
+      },
+      "predicted": "TYPE(\"Text Input\", \"Hello John\")",
+      "ground_truth": "CLICK(\"Send\")",
+      "app": "Chat"
+    },
+    {
+      "episode_id": "search_wifi",
+      "goal": "Search for Wi-Fi networks",
+      "observation": {
+        "app": "Wi-Fi",
+        "ui_elements": [
+          "Available Networks",
+          "Add Network",
+          "Scan"
+        ]
+      },
+      "predicted": "CLICK(\"Available Networks\")",
+      "ground_truth": "CLICK(\"Scan\")",
+      "app": "Wi-Fi"
+    },
+    {
+      "episode_id": "set_alarm",
+      "goal": "Set an alarm for 7 AM",
+      "observation": {
+        "app": "Add Alarm",
+        "ui_elements": [
+          "Time Picker",
+          "Save",
+          "Cancel"
+        ]
+      },
+      "predicted": "CLICK(\"Time Picker\")",
+      "ground_truth": "TYPE(\"Time Picker\", \"07:00\")",
+      "app": "Add Alarm"
+    },
+    {
+      "episode_id": "check_battery",
+      "goal": "Check battery usage",
+      "observation": {
+        "app": "Settings",
+        "ui_elements": [
+          "Battery",
+          "Display",
+          "Sound"
+        ]
+      },
+      "predicted": "CLICK(\"Unknown\")",
+      "ground_truth": "CLICK(\"Battery\")",
+      "app": "Settings"
+    },
+    {
+      "episode_id": "check_battery",
+      "goal": "Check battery usage",
+      "observation": {
+        "app": "Battery",
+        "ui_elements": [
+          "Battery Usage",
+          "Battery Saver",
+          "Adaptive Battery"
+        ]
+      },
+      "predicted": "CLICK(\"Unknown\")",
+      "ground_truth": "CLICK(\"Battery Usage\")",
+      "app": "Battery"
+    },
+    {
+      "episode_id": "turn_on_bluetooth",
+      "goal": "Turn on Bluetooth",
+      "observation": {
+        "app": "Bluetooth",
+        "ui_elements": [
+          "On/Off Switch",
+          "Pair New Device",
+          "Saved Devices"
+        ]
+      },
+      "predicted": "CLICK(\"Unknown\")",
+      "ground_truth": "CLICK(\"On/Off Switch\")",
+      "app": "Bluetooth"
+    },
+    {
+      "episode_id": "mute_phone",
+      "goal": "Mute the phone",
+      "observation": {
+        "app": "Settings",
+        "ui_elements": [
+          "Sound",
+          "Display",
+          "Notifications"
+        ]
+      },
+      "predicted": "CLICK(\"Unknown\")",
+      "ground_truth": "CLICK(\"Sound\")",
+      "app": "Settings"
+    },
+    {
+      "episode_id": "directions_airport",
+      "goal": "Open Maps and get directions to the airport",
+      "observation": {
+        "app": "Maps",
+        "ui_elements": [
+          "Search",
+          "Directions",
+          "Menu"
+        ]
+      },
+      "predicted": "CLICK(\"Search\")",
+      "ground_truth": "CLICK(\"Directions\")",
+      "app": "Maps"
+    },
+    {
+      "episode_id": "directions_airport",
+      "goal": "Open Maps and get directions to the airport",
+      "observation": {
+        "app": "Maps",
+        "ui_elements": [
+          "Airport",
+          "Home",
+          "Work"
+        ]
+      },
+      "predicted": "CLICK(\"Airport\")",
+      "ground_truth": "TYPE(\"Search\", \"Airport\")",
+      "app": "Maps"
+    },
+    {
+      "episode_id": "change_wallpaper",
+      "goal": "Change wallpaper to a downloaded image",
+      "observation": {
+        "app": "Home",
+        "ui_elements": [
+          "Settings",
+          "Gallery",
+          "Files"
+        ]
+      },
+      "predicted": "CLICK(\"Unknown\")",
+      "ground_truth": "CLICK(\"Settings\")",
+      "app": "Home"
+    },
+    {
+      "episode_id": "change_wallpaper",
+      "goal": "Change wallpaper to a downloaded image",
+      "observation": {
+        "app": "Settings",
+        "ui_elements": [
+          "Display",
+          "Wallpaper",
+          "Themes"
+        ]
+      },
+      "predicted": "CLICK(\"Unknown\")",
+      "ground_truth": "CLICK(\"Wallpaper\")",
+      "app": "Settings"
+    },
+    {
+      "episode_id": "change_wallpaper",
+      "goal": "Change wallpaper to a downloaded image",
+      "observation": {
+        "app": "Gallery",
+        "ui_elements": [
+          "Downloaded",
+          "Camera",
+          "Screenshots"
+        ]
+      },
+      "predicted": "CLICK(\"Downloaded\")",
+      "ground_truth": "CLICK(\"Gallery\")",
+      "app": "Gallery"
+    },
+    {
+      "episode_id": "change_wallpaper",
+      "goal": "Change wallpaper to a downloaded image",
+      "observation": {
+        "app": "Downloaded",
+        "ui_elements": [
+          "beach.jpg",
+          "mountain.jpg",
+          "city.jpg"
+        ]
+      },
+      "predicted": "CLICK(\"beach.jpg\")",
+      "ground_truth": "CLICK(\"Downloaded\")",
+      "app": "Downloaded"
+    },
+    {
+      "episode_id": "change_wallpaper",
+      "goal": "Change wallpaper to a downloaded image",
+      "observation": {
+        "app": "beach.jpg",
+        "ui_elements": [
+          "Set as Wallpaper",
+          "Share",
+          "Delete"
+        ]
+      },
+      "predicted": "CLICK(\"Set as Wallpaper\")",
+      "ground_truth": "CLICK(\"beach.jpg\")",
+      "app": "beach.jpg"
+    },
+    {
+      "episode_id": "share_photo_email",
+      "goal": "Share a photo via email",
+      "observation": {
+        "app": "Gallery",
+        "ui_elements": [
+          "Camera",
+          "Downloads",
+          "Vacation"
+        ]
+      },
+      "predicted": "CLICK(\"Unknown\")",
+      "ground_truth": "CLICK(\"Vacation\")",
+      "app": "Gallery"
+    },
+    {
+      "episode_id": "share_photo_email",
+      "goal": "Share a photo via email",
+      "observation": {
+        "app": "Vacation",
+        "ui_elements": [
+          "photo1.jpg",
+          "photo2.jpg",
+          "photo3.jpg"
+        ]
+      },
+      "predicted": "CLICK(\"Unknown\")",
+      "ground_truth": "CLICK(\"photo2.jpg\")",
+      "app": "Vacation"
+    },
+    {
+      "episode_id": "share_photo_email",
+      "goal": "Share a photo via email",
+      "observation": {
+        "app": "Share",
+        "ui_elements": [
+          "Email",
+          "Messages",
+          "Drive"
+        ]
+      },
+      "predicted": "CLICK(\"Unknown\")",
+      "ground_truth": "CLICK(\"Email\")",
+      "app": "Share"
+    },
+    {
+      "episode_id": "share_photo_email",
+      "goal": "Share a photo via email",
+      "observation": {
+        "app": "Email",
+        "ui_elements": [
+          "To Field",
+          "Subject Field",
+          "Send"
+        ]
+      },
+      "predicted": "CLICK(\"Unknown\")",
+      "ground_truth": "TYPE(\"To Field\", \"friend@example.com\")",
+      "app": "Email"
+    },
+    {
+      "episode_id": "enable_dark_mode",
+      "goal": "Enable dark mode",
+      "observation": {
+        "app": "Settings",
+        "ui_elements": [
+          "Display",
+          "Sound",
+          "Notifications"
+        ]
+      },
+      "predicted": "CLICK(\"Unknown\")",
+      "ground_truth": "CLICK(\"Display\")",
+      "app": "Settings"
+    },
+    {
+      "episode_id": "update_software",
+      "goal": "Update the system software",
+      "observation": {
+        "app": "Settings",
+        "ui_elements": [
+          "System",
+          "About Phone",
+          "Software Update"
+        ]
+      },
+      "predicted": "CLICK(\"Software Update\")",
+      "ground_truth": "CLICK(\"System\")",
+      "app": "Settings"
+    },
+    {
+      "episode_id": "update_software",
+      "goal": "Update the system software",
+      "observation": {
+        "app": "System",
+        "ui_elements": [
+          "Software Update",
+          "Reset",
+          "Backup"
+        ]
+      },
+      "predicted": "CLICK(\"Unknown\")",
+      "ground_truth": "CLICK(\"Software Update\")",
+      "app": "System"
+    },
+    {
+      "episode_id": "block_spam_number",
+      "goal": "Block a spam number",
+      "observation": {
+        "app": "Phone",
+        "ui_elements": [
+          "Recents",
+          "Contacts",
+          "Spam"
+        ]
+      },
+      "predicted": "CLICK(\"Unknown\")",
+      "ground_truth": "CLICK(\"Spam\")",
+      "app": "Phone"
+    },
+    {
+      "episode_id": "block_spam_number",
+      "goal": "Block a spam number",
+      "observation": {
+        "app": "Spam",
+        "ui_elements": [
+          "1234567890",
+          "9876543210",
+          "Block"
+        ]
+      },
+      "predicted": "CLICK(\"Block\")",
+      "ground_truth": "CLICK(\"1234567890\")",
+      "app": "Spam"
+    },
+    {
+      "episode_id": "turn_on_airplane_mode",
+      "goal": "Turn on airplane mode",
+      "observation": {
+        "app": "Settings",
+        "ui_elements": [
+          "Network & Internet",
+          "Connections",
+          "Airplane Mode"
+        ]
+      },
+      "predicted": "CLICK(\"Airplane Mode\")",
+      "ground_truth": "CLICK(\"Network & Internet\")",
+      "app": "Settings"
+    },
+    {
+      "episode_id": "delete_all_alarms",
+      "goal": "Delete all alarms",
+      "observation": {
+        "app": "Clock",
+        "ui_elements": [
+          "Alarm",
+          "Timer",
+          "Stopwatch"
+        ]
+      },
+      "predicted": "CLICK(\"Unknown\")",
+      "ground_truth": "CLICK(\"Alarm\")",
+      "app": "Clock"
+    },
+    {
+      "episode_id": "delete_all_alarms",
+      "goal": "Delete all alarms",
+      "observation": {
+        "app": "Alarm",
+        "ui_elements": [
+          "Edit",
+          "Delete All",
+          "Add Alarm"
+        ]
+      },
+      "predicted": "CLICK(\"Unknown\")",
+      "ground_truth": "CLICK(\"Delete All\")",
+      "app": "Alarm"
+    },
+    {
+      "episode_id": "reply_email_bob",
+      "goal": "Reply to an email from Bob",
+      "observation": {
+        "app": "Reply",
+        "ui_elements": [
+          "Text Input",
+          "Send",
+          "Attach"
+        ]
+      },
+      "predicted": "TYPE(\"Text Input\", \"Reply to Bob's email\")",
+      "ground_truth": "TYPE(\"Text Input\", \"Thanks Bob!\")",
+      "app": "Reply"
+    },
+    {
+      "episode_id": "RecipeAddMultipleRecipesFromMarkor2",
+      "goal": "Add the recipes from recipes.txt in Markor that take {prep_time} to prepare into the Broccoli recipe app.",
+      "observation": {
+        "app": "Share",
+        "ui_elements": [
+          "Broccoli",
+          "Email",
+          "Drive"
+        ]
+      },
+      "predicted": "CLICK(\"Broccoli\")",
+      "ground_truth": "CLICK(\"Share\")",
+      "app": "Share"
+    },
+    {
+      "episode_id": "RecipeAddMultipleRecipesFromMarkor2",
+      "goal": "Add the recipes from recipes.txt in Markor that take {prep_time} to prepare into the Broccoli recipe app.",
+      "observation": {
+        "app": "Broccoli",
+        "ui_elements": [
+          "Add Recipe",
+          "Import",
+          "Settings"
+        ]
+      },
+      "predicted": "CLICK(\"Add Recipe\")",
+      "ground_truth": "CLICK(\"Broccoli\")",
+      "app": "Broccoli"
+    },
+    {
+      "episode_id": "RecipeAddSingleRecipe",
+      "goal": "Add the following recipes into the Broccoli app: {recipe}",
+      "observation": {
+        "app": "Add Recipe",
+        "ui_elements": [
+          "Recipe Name",
+          "Ingredients",
+          "Save"
+        ]
+      },
+      "predicted": "CLICK(\"Recipe Name\")",
+      "ground_truth": "TYPE(\"Recipe Name\", \"{recipe}\")",
+      "app": "Add Recipe"
+    },
+    {
+      "episode_id": "RecipeDeleteDuplicateRecipes",
+      "goal": "Delete all but one of any recipes in the Broccoli app that are exact duplicates, ensuring at least one instance of each unique recipe remains",
+      "observation": {
+        "app": "Duplicate2",
+        "ui_elements": [
+          "Delete",
+          "Edit",
+          "Back"
+        ]
+      },
+      "predicted": "CLICK(\"Delete\")",
+      "ground_truth": "CLICK(\"Duplicate2\")",
+      "app": "Duplicate2"
+    },
+    {
+      "episode_id": "RecipeDeleteDuplicateRecipes2",
+      "goal": "Delete all but one of any recipes in the Broccoli app that are exact duplicates, ensuring at least one instance of each unique recipe remains (medium)",
+      "observation": {
+        "app": "Duplicate2",
+        "ui_elements": [
+          "Delete",
+          "Edit",
+          "Back"
+        ]
+      },
+      "predicted": "CLICK(\"Delete\")",
+      "ground_truth": "CLICK(\"Duplicate2\")",
+      "app": "Duplicate2"
+    }
+  ],
+  "error_patterns": {
+    "Wrong Element Clicked": 27,
+    "Wrong Text Typed": 2,
+    "Wrong Action Type (Type vs Click)": 1,
+    "Wrong Action Type (Click vs Type)": 4
+  },
+  "average_response_time": null,
+  "total_evaluation_time": null,
+  "reflection_quality_score": null,
+  "learning_improvement": null
+}
